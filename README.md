@@ -1,5 +1,3 @@
-# miniprogram-demo
-
 ## 小程序 react demo集 测试专用
 
 ## taro官网
