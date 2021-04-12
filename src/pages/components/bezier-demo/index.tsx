@@ -86,7 +86,7 @@ export default class Index extends Component {
     return (
       <View>
         {ballDisplay && <View className="ball" style={`top:${top};left:${left}`}></View>}
-        <View className="btn-add-cart before-position" onClick={this.addCart.bind(this)}>加入购物车动画</View>
+        <View className="btn-add-cart before-position" onClick={this.addCart.bind(this)}>点击展示加入购物车动画</View>
         <View className="bottom-bar">
           <View id="icon" className="icon after-position"></View>
         </View>

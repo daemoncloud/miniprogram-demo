@@ -1,12 +1,21 @@
 .index{
     display: flex;
     flex-direction: column;
-    .indexItem{
+    .index-title{
+      height: 120px;
+      line-height: 120px;
+      text-align: left;
+      margin-left: 24px;
+      font-weight: 600;
+      font-size: 30px;
+    }
+    .index-item{
       height: 80px;
       line-height: 80px;
       background: cadetblue;
       color: #fff;
       margin-bottom: 6px;
       padding-left: 24px;
+      font-size: 24px;
     }
   }
