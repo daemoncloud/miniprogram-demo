@@ -1,0 +1,12 @@
+.index{
+    display: flex;
+    flex-direction: column;
+    .indexItem{
+      height: 80px;
+      line-height: 80px;
+      background: cadetblue;
+      color: #fff;
+      margin-bottom: 6px;
+      padding-left: 24px;
+    }
+  }
