@@ -34,6 +34,9 @@ class Index extends Component {
       case 4:
         Taro.navigateTo({url:'../components/premise-demo/index'});
         break
+      case 5:
+        Taro.navigateTo({url:'../components/cssvar-demo/index'});
+        break
       default:
         Taro.showToast({title: '暂无配置路由',icon:'none'})
     }
@@ -51,6 +54,7 @@ class Index extends Component {
         <View className='index-item' onClick={this.goDemo.bind(this,2)}>mobx</View>
         <View className='index-item' onClick={this.goDemo.bind(this,3)}>react-hook</View>
         <View className='index-item' onClick={this.goDemo.bind(this,4)}>Premise</View>
+        <View className='index-item' onClick={this.goDemo.bind(this,5)}>小程序中css-var&&classnames实现换肤</View>
       </ScrollView>
     )
   }

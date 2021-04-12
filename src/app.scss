@@ -1,1 +1,15 @@
 @import "~taro-ui/dist/style/index.scss";
+
+
+.dark{
+    background: #000;
+    --text-style{
+        color: #fff;
+    }
+}
+.light{
+    background: #fff;
+    --text-style{
+        color: #000;
+    }
+}

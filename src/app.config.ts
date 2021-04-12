@@ -4,7 +4,8 @@ export default {
     'pages/components/bezier-demo/index',
     'pages/components/mobx-demo/index',
     'pages/components/hooks-demo/index',
-    'pages/components/premise-demo/index'
+    'pages/components/premise-demo/index',
+    'pages/components/cssvar-demo/index',
   ],
   window: {
     backgroundTextStyle: 'light',
