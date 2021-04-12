@@ -1,3 +1,4 @@
+const path = require('path')
 const config = {
   projectName: 'mini-demo',
   date: '2021-4-12',
@@ -9,6 +10,9 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
+  alias: {
+    '@': path.resolve(__dirname, '..', 'src'),
+  },
   plugins: [],
   defineConstants: {
   },

@@ -4,7 +4,7 @@ import Taro from '@tarojs/taro'
 import { AtGrid} from "taro-ui"
 import './index.scss'
 
-import mokeData from '../../moke/mokeData'
+import mokeData from '@/moke/mokeData'
 
 class Index extends Component {
 
@@ -28,13 +28,19 @@ class Index extends Component {
       case 2:
         Taro.navigateTo({url:'../components/mobx-demo/index'});
         break
+      case 3:
+        Taro.navigateTo({url:'../components/hooks-demo/index'});
+        break
+      case 4:
+        Taro.navigateTo({url:'../components/premise-demo/index'});
+        break
       default:
         Taro.showToast({title: '暂无配置路由',icon:'none'})
     }
   }
 
   render () {
-    const AtGridList = mokeData.AtGridList;
+    // const AtGridList = mokeData.AtGridList;
     return (
       // <View>
       //   <AtGrid mode='rect' columnNum={4} hasBorder={false} data={AtGridList} />
