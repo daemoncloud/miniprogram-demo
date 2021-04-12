@@ -1,9 +1,9 @@
 # miniprogram-demo
 
-taro小程序 react demo集
+## 小程序 react demo集
 
-
-
+## taro官网
+http://taro-docs.jd.com/taro/docs/GETTING-STARTED
 
 ### 配置目录别名
 http://taro-docs.jd.com/taro/docs/config-detail#alias
