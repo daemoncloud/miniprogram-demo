@@ -35,7 +35,7 @@ export default class Index extends Component {
         <View className='at-article__p'>下面例子仅通过两种样式切换来展示</View>
         <AtSwitch title={value ? 'dark' : 'light'} checked={value} onChange={this.handleChange} />
         <View className={classnames({dark:value,light:!value})}>
-          <Text className='texts'>被改变的style</Text>
+          <View className='texts'>被改变的style</View>
         </View>
       </View>
     )

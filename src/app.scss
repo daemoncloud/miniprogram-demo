@@ -2,14 +2,10 @@
 
 
 .dark{
-    background: #000;
-    --text-style{
-        color: #fff;
-    }
+    --theme: #000; //主题背景色
+    --text-color: #fff; //主题字体颜色
 }
 .light{
-    background: #fff;
-    --text-style{
-        color: #000;
-    }
+    --theme: #fff;
+    --text-color:#000;
 }

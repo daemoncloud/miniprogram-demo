@@ -1,3 +1,8 @@
 .texts{
-    color: var(--text-style,red);
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--text-color,red);
+    background: var(--theme,red);
 }
