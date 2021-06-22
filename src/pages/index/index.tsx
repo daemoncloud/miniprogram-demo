@@ -1,10 +1,7 @@
 import { Component } from 'react'
 import { View, ScrollView } from '@tarojs/components'
 import Taro from '@tarojs/taro'
-import { AtGrid} from "taro-ui"
 import './index.scss'
-
-import mokeData from '@/moke/mokeData'
 
 class Index extends Component {
 
@@ -45,16 +42,13 @@ class Index extends Component {
   render () {
     // const AtGridList = mokeData.AtGridList;
     return (
-      // <View>
-      //   <AtGrid mode='rect' columnNum={4} hasBorder={false} data={AtGridList} />
-      // </View>
       <ScrollView className='index'>
         <View className='index-title'>Demo</View>
         <View className='index-item' onClick={this.goDemo.bind(this,1)}>贝塞尔曲线</View>
         <View className='index-item' onClick={this.goDemo.bind(this,2)}>mobx</View>
         <View className='index-item' onClick={this.goDemo.bind(this,3)}>react-hook</View>
         <View className='index-item' onClick={this.goDemo.bind(this,4)}>Premise</View>
-        <View className='index-item' onClick={this.goDemo.bind(this,5)}>小程序中css-var&&classnames实现换肤</View>
+        <View className='index-item' onClick={this.goDemo.bind(this,5)}>小程序中使用 css-var && classnames实现换肤</View>
       </ScrollView>
     )
   }
